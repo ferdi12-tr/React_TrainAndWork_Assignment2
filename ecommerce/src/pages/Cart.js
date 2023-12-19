@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
+import Footer from '../components/Footer';
 
 export default class Cart extends Component {
     calculateTotal = (cartList) => {
@@ -123,6 +124,7 @@ export default class Cart extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </>
         )
     }
