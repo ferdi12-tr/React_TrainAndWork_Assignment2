@@ -44,7 +44,7 @@ export default function BlogDetail({ getBlogBySlug, blogPosts }) {
                                     <h2 className="single-sidebar-widget__title">Recent Posts</h2>
                                     <ul className="single-sidebar-widget__dropdown single-sidebar-widget__dropdown--extra-height">
                                         {blogPosts.map((post, index) => {
-                                            return <li key={index}><Link to={post.slug}>{post.title}</Link></li>;
+                                            return <li key={index}><Link to={"/blog/" + post.slug}>{post.title}</Link></li>;
                                         })}
                                     </ul>
                                 </div>

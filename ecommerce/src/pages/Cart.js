@@ -25,7 +25,7 @@ export default class Cart extends Component {
                                 <div className="breadcrumb-wrapper">
                                     <h2 className="page-title">Shopping Cart</h2>
                                     <ul className="breadcrumb-list">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><Link to="/" href="index.html">Home</Link></li>
                                         <li className="active">Shopping Cart</li>
                                     </ul>
                                 </div>
@@ -53,12 +53,12 @@ export default class Cart extends Component {
                                                 {cartlist && cartlist.map((product, index) => {
                                                     return <tr key={index}>
                                                         <td className="product-thumbnail">
-                                                            <Link to={"products\\" + product.slug}>
+                                                            <Link to={"/products/" + product.slug}>
                                                                 <img src={product.images[0]} className="img-fluid" alt="" />
                                                             </Link>
                                                         </td>
                                                         <td className="product-name">
-                                                            <Link to={"products\\" + product.slug}>{product.title}</Link>
+                                                            <Link to={"/products/" + product.slug}>{product.title}</Link>
                                                             <span className="product-variation">Color: Black</span>
                                                         </td>
                                                         <td className="product-price"><span className="price">${product.price}</span></td>
