@@ -9,9 +9,8 @@ export default class MainPage extends Component {
     render() {
         return (
             <>
-
                 <Slider />
-                <Tab products={this.props.products} />
+                <Tab products={this.props.products} addToCartList={this.props.addToCartList} />
             </>
         )
     }

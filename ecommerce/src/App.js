@@ -9,6 +9,7 @@ export default class App extends Component {
 
   state = {
     products: [],
+    cartList: [],
   };
 
   getProducts = () => {
@@ -27,12 +28,26 @@ export default class App extends Component {
     return this.state.products.find((product) => product.slug === slug);
   };
 
+  addToCartList = (product) => {
+    this.setState({ cartList: [...this.state.cartList, product] })
+    console.log(this.state.cartList)
+  }
+
+  getCartList = () => {
+    return this.state.cartList
+  }
+
+  removeCartList = (product) => {
+    let updatedList = this.state.cartList.filter(element => element.id !== product.id)
+    this.setState({ cartList: updatedList })
+  }
+
   render() {
     return (
       <>
-        <Header />
+        <Header getCartList={this.getCartList} removeCartList={this.removeCartList} />
         <Routes>
-          <Route path="/" element={<MainPage products={this.state.products} />} />
+          <Route path="/" element={<MainPage products={this.state.products} addToCartList={this.addToCartList} />} />
           <Route path="/products/:slug" element={<ProductDetail getProductBySlug={this.getProductBySlug} />} />
         </Routes></>
 

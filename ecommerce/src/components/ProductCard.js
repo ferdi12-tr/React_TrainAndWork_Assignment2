@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default class ProductCard extends Component {
     render() {
-        const { product } = this.props
+        const { product, addToCartList } = this.props
         return (
             <div className="col-xl-custom-2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-custom-sm-6">
                 <div className="single-grid-product">
@@ -20,7 +20,7 @@ export default class ProductCard extends Component {
                         </Link>
                         <div className="product-hover-icon-wrapper">
                             <span className="single-icon single-icon--quick-view"><a className="cd-trigger" href="#qv-1" data-tippy="Quick View" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder"><i className="fa fa-search" /></a></span>
-                            <span className="single-icon single-icon--add-to-cart"><a href="#" data-tippy="Add to cart" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder"><i className="fa fa-shopping-basket" /> <span>ADD TO
+                            <span className="single-icon single-icon--add-to-cart"><a onClick={() => addToCartList(product)} data-tippy="Add to cart" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder"><i className="fa fa-shopping-basket" /> <span>ADD TO
                                 CART</span></a></span>
                             <span className="single-icon single-icon--compare"><a href="#" data-tippy="Compare" data-tippy-inertia="true" data-tippy-animation="shift-away" data-tippy-delay={50} data-tippy-arrow="true" data-tippy-theme="sharpborder"><i className="fa fa-exchange" /></a></span>
                         </div>

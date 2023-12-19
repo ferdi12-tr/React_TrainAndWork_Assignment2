@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 
 export default class Tab extends Component {
     render() {
-        const { products } = this.props;
+        const { products, addToCartList } = this.props;
         return (
             <div className="product-double-row-tab-area section-space">
                 <div className="container wide">
@@ -31,7 +31,7 @@ export default class Tab extends Component {
                                         <div className="product-row-wrapper">
                                             <div className="row">
                                                 {products.map((product, index) => {
-                                                    return <ProductCard key={index} product={product} />
+                                                    return <ProductCard addToCartList={addToCartList} key={index} product={product} />
                                                 })}
                                             </div>
                                         </div>

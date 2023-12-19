@@ -8,7 +8,6 @@ export default function ProductDetail({ getProductBySlug }) {
 
     const { slug } = useParams();
     const product = getProductBySlug(slug);
-    console.log(product.images[0])
     return (
         <>
             <div className="page-content-wrapper">
