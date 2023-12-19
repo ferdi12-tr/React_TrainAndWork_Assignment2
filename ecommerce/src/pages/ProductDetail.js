@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 
 
-export default function ProductDetail({ getProductBySlug }) {
+export default function ProductDetail({ getProductBySlug, addToCartList }) {
 
     const { slug } = useParams();
     const product = getProductBySlug(slug);
@@ -102,7 +102,6 @@ export default function ProductDetail({ getProductBySlug }) {
                                         </div>
                                     </div>
                                 </div>
-                                {/*=======  End of product details slider area  =======*/}
                             </div>
 
                             <div className="col-lg-6">
@@ -118,7 +117,7 @@ export default function ProductDetail({ getProductBySlug }) {
                                             <input type="text" defaultValue={1} />
                                         </div>
                                         <div className="add-to-cart-btn d-inline-block">
-                                            <button className="theme-button theme-button--alt">ADD TO CART</button>
+                                            <button onClick={() => addToCartList(product)} className="theme-button theme-button--alt">ADD TO CART</button>
                                         </div>
                                     </div>
 

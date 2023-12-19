@@ -12,7 +12,7 @@ export default class ProductCard extends Component {
                             <span className="onsale">-17%</span>
                             <span className="hot">Hot</span>
                         </div>
-                        <Link to={"products\\" + product.slug}>
+                        <Link to={"products/" + product.slug}>
                             <div className="image-wrap">
                                 <img src={product.images[0]} className="img-fluid" alt="" />
                                 {product.images[1] && <img src={product.images[1]} className="img-fluid" alt="" />}
@@ -27,7 +27,7 @@ export default class ProductCard extends Component {
                     </div>
                     <div className="single-grid-product__content">
                         <h3 className="title">
-                            <Link to={"products\\" + product.slug}>
+                            <Link to={"products/" + product.slug}>
                                 {product.title}
                             </Link>
                         </h3>

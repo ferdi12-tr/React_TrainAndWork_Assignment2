@@ -60,13 +60,13 @@ export default class Header extends Component {
                                                             return <div key={index} className="minicart-wrapper__items__single">
                                                                 <a className="close-icon" onClick={() => removeCartList(product)}><i className="pe-7s-close" /></a>
                                                                 <div className="image">
-                                                                    <Link to={"products\\" + product.slug}>
-                                                                        <img src={product.images[0]} className="img-fluid" alt="" />
+                                                                    <Link to={"products/" + product.slug}>
+                                                                        <img src={"/" + product.images[0]} className="img-fluid" alt="" />
                                                                     </Link>
                                                                 </div>
                                                                 <div className="content">
                                                                     <p className="product-title">
-                                                                        <Link to={"products\\" + product.slug}>
+                                                                        <Link to={"products/" + product.slug}>
                                                                             {product.title}
                                                                         </Link>
                                                                     </p>

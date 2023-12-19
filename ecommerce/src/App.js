@@ -65,7 +65,7 @@ export default class App extends Component {
         <Header getCartList={this.getCartList} removeCartList={this.removeCartList} />
         <Routes>
           <Route path="/" element={<MainPage products={this.state.products} addToCartList={this.addToCartList} />} />
-          <Route path="/products/:slug" element={<ProductDetail getProductBySlug={this.getProductBySlug} />} />
+          <Route path="/products/:slug" element={<ProductDetail getProductBySlug={this.getProductBySlug} addToCartList={this.addToCartList} />} />
           <Route path="/cart" element={<Cart getCartList={this.getCartList} removeCartList={this.removeCartList} />} />
           <Route path="/blog" element={<Blog blogPosts={this.state.blogPosts} />} />
           <Route path="/blog/:slug" element={<BlogDetail getBlogBySlug={this.getBlogBySlug} blogPosts={this.state.blogPosts} />} />

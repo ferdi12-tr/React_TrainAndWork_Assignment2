@@ -63,7 +63,7 @@
             "slug": "the_difference_between_green_furniture_and_sustainable_furniture",
             "author": "admin",
             "date": "2023-01-01",
-            "image": "assets\\img\\blog\\slider\\five-550x360.jpg",
+            "image": "assets/img/blog/slider/five-550x360.jpg",
             "content": "Many furniture companies claim their products are “green,” a designation usually referring to material sourcing. Maybe their sofa frames are made out of dumpster-sourced scrap metal or their cushions are…"
         },
         {
@@ -72,7 +72,7 @@
             "slug": "a_busy_person_guide_to_getting_organized_room",
             "author": "user",
             "date": "2023-04-03",
-            "image": "assets\\img\\blog\\slider\\one-550x360.jpg",
+            "image": "assets/img/blog/slider/one-550x360.jpg",
             "content": "Many furniture companies claim their products are “green,” a designation usually referring to material sourcing. Maybe their sofa frames are made out of dumpster-sourced scrap metal or their cushions are…"
         },
         {
@@ -81,7 +81,7 @@
             "slug": "sustainable_furniture_in_modern_world",
             "author": "admin",
             "date": "2023-05-05",
-            "image": "assets\\img\\blog\\slider\\six-550x360.jpg",
+            "image": "assets/img/blog/slider/six-550x360.jpg",
             "content": "Many furniture companies claim their products are “green,” a designation usually referring to material sourcing. Maybe their sofa frames are made out of dumpster-sourced scrap metal or their cushions are…"
         }
     ]
