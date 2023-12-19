@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Lighting Lamp",
+            "price": "110",
+            "discount": "149",
+            "slug": "lighting_lamp",
+            "images": [
+                "assets/img/products/product-10-1-270x360.jpg",
+                "assets/img/products/product-10-1-600x800.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Jane Lauren Design Chair",
+            "price": "98",
+            "discount": null,
+            "slug": "jane_lauren_design_chair",
+            "images": [
+                "assets/img/products/product-10-1-270x360.jpg",
+                "assets/img/products/product-10-1-270x360.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Jane Lauren Gregory Chair",
+            "price": "90",
+            "discount": "125",
+            "slug": "jane_lauren_gregory_chair",
+            "images": [
+                "assets/img/products/product-11-1-270x360.jpg",
+                "assets/img/products/product-11-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Candice Desk Lamb",
+            "price": "100",
+            "discount": null,
+            "slug": "candice_desk_lamb",
+            "images": [
+                "assets/img/products/product-12-1-270x360.jpg",
+                "assets/img/products/product-12-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Ovora Step Stool",
+            "price": "140",
+            "discount": "185",
+            "slug": "ovora_step_stool",
+            "images": [
+                "assets/img/products/product-13-1-270x360.jpg",
+                "assets/img/products/product-13-2-270x360.jpg"
+            ]
+        }
+    ]
+}
