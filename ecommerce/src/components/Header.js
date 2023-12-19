@@ -33,13 +33,13 @@ export default class Header extends Component {
                                     <nav>
                                         <ul>
                                             <li className="has">
-                                                <a href="index.html">HOME</a>
+                                                <Link to="/">HOME</Link>
                                             </li>
                                             <li className="has">
-                                                <a href="/">About</a>
+                                                <Link to="/">ABOUT</Link>
                                             </li>
                                             <li className="has">
-                                                <a href="blog.html">BLOG</a>
+                                                <Link to="/">BLOG</Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -49,7 +49,10 @@ export default class Header extends Component {
                                     <div className="header-icon d-flex align-items-center">
                                         <ul className="header-icon__list">
                                             <li>
-                                                <a href="cart.html"><i className="fa fa-shopping-basket" /><span className="item-count">3</span></a>
+                                                <Link to="cart">
+                                                    <i className="fa fa-shopping-basket" />
+                                                    <span className="item-count">{cartlist.length}</span>
+                                                </Link>
                                                 <div className="minicart-wrapper">
                                                     <p className="minicart-wrapper__title">CART</p>
                                                     <div className="minicart-wrapper__items ps-scroll">
@@ -79,7 +82,7 @@ export default class Header extends Component {
 
                                                     <p className="minicart-wrapper__subtotal">SUBTOTAL: <span>${total}</span></p>
                                                     <div className="minicart-wrapper__buttons">
-                                                        <a href="cart.html" className="theme-button theme-button--minicart-button">VIEW CART</a>
+                                                        <Link to="cart" className="theme-button theme-button--minicart-button">VIEW CART</Link>
                                                         <a href="checkout.html" className="theme-button theme-button--alt theme-button--minicart-button theme-button--minicart-button--alt mb-0">CHECKOUT</a>
                                                     </div>
                                                     <p className="minicart-wrapper__featuretext">Free Shipping on All Orders

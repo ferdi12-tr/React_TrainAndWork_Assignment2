@@ -1,6 +1,7 @@
 import MainPage from "./pages/MainPage";
 import Header from "./components/Header"
 import ProductDetail from "./pages/ProductDetail";
+import Cart from "./pages/Cart";
 import { Route, Routes } from "react-router-dom";
 
 import React, { Component } from 'react'
@@ -49,6 +50,7 @@ export default class App extends Component {
         <Routes>
           <Route path="/" element={<MainPage products={this.state.products} addToCartList={this.addToCartList} />} />
           <Route path="/products/:slug" element={<ProductDetail getProductBySlug={this.getProductBySlug} />} />
+          <Route path="/cart" element={<Cart getCartList={this.getCartList} removeCartList={this.removeCartList} />} />
         </Routes></>
 
     );
