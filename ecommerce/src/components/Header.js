@@ -39,7 +39,7 @@ export default class Header extends Component {
                                                 <Link to="/">ABOUT</Link>
                                             </li>
                                             <li className="has">
-                                                <Link to="/">BLOG</Link>
+                                                <Link to="/blog">BLOG</Link>
                                             </li>
                                         </ul>
                                     </nav>
