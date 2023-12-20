@@ -86,7 +86,7 @@ export default class Header extends Component {
                                                     <p className="minicart-wrapper__subtotal">SUBTOTAL: <span>${total}</span></p>
                                                     <div className="minicart-wrapper__buttons">
                                                         <Link to="cart" className="theme-button theme-button--minicart-button">VIEW CART</Link>
-                                                        <a href="checkout.html" className="theme-button theme-button--alt theme-button--minicart-button theme-button--minicart-button--alt mb-0">CHECKOUT</a>
+                                                        <Link to="checkout" className="theme-button theme-button--alt theme-button--minicart-button theme-button--minicart-button--alt mb-0">CHECKOUT</Link>
                                                     </div>
                                                     <p className="minicart-wrapper__featuretext">Free Shipping on All Orders
                                                         Over $100!</p>
