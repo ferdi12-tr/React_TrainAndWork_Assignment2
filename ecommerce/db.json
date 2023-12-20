@@ -162,5 +162,16 @@
             "content": "Many furniture companies claim their products are “green,” a designation usually referring to material sourcing. Maybe their sofa frames are made out of dumpster-sourced scrap metal or their cushions are…"
         }
     ],
-    "orders": []
+    "orders": [
+        {
+            "firstName": "ferdi",
+            "lastName": "koca",
+            "email": "ferdikoca12@gmail.com",
+            "phone": "0537 263 92 41",
+            "country": "",
+            "orderId": 7201972,
+            "paymentMethod": "check",
+            "id": 1
+        }
+    ]
 }
