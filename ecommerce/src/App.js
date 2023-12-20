@@ -4,6 +4,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
+import AboutUs from "./pages/AboutUs";
 import { Route, Routes } from "react-router-dom";
 
 import React, { Component } from 'react'
@@ -69,6 +70,7 @@ export default class App extends Component {
           <Route path="/cart" element={<Cart getCartList={this.getCartList} removeCartList={this.removeCartList} />} />
           <Route path="/blog" element={<Blog blogPosts={this.state.blogPosts} />} />
           <Route path="/blog/:slug" element={<BlogDetail getBlogBySlug={this.getBlogBySlug} blogPosts={this.state.blogPosts} />} />
+          <Route path="aboutus" element={<AboutUs />} />
         </Routes></>
 
     );
