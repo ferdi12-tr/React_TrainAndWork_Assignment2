@@ -44,6 +44,9 @@ export default class Header extends Component {
                                             <li className="has">
                                                 <Link to="/contactus">CONTACT US</Link>
                                             </li>
+                                            <li className="has">
+                                                <Link to="/ordertracking">ORDER TRACKING</Link>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>

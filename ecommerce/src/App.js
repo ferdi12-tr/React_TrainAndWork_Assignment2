@@ -7,6 +7,7 @@ import BlogDetail from "./pages/BlogDetail";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Checkout from "./pages/Checkout";
+import OrderTracking from "./pages/OrderTracking";
 import { Route, Routes } from "react-router-dom";
 
 import React, { Component } from 'react'
@@ -75,6 +76,7 @@ export default class App extends Component {
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="ContactUs" element={<ContactUs />} />
           <Route path="checkout" element={<Checkout getCartList={this.getCartList} />} />
+          <Route path="ordertracking" element={<OrderTracking />} />
         </Routes></>
 
     );
