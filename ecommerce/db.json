@@ -2,6 +2,7 @@
     "products": [
         {
             "id": 1,
+            "tag": 1,
             "title": "Lighting Lamp",
             "price": "110",
             "discount": "149",
@@ -13,6 +14,7 @@
         },
         {
             "id": 2,
+            "tag": 2,
             "title": "Jane Lauren Design Chair",
             "price": "98",
             "discount": null,
@@ -24,6 +26,7 @@
         },
         {
             "id": 3,
+            "tag": 3,
             "title": "Jane Lauren Gregory Chair",
             "price": "90",
             "discount": "125",
@@ -35,6 +38,7 @@
         },
         {
             "id": 4,
+            "tag": 1,
             "title": "Candice Desk Lamb",
             "price": "100",
             "discount": null,
@@ -46,6 +50,7 @@
         },
         {
             "id": 5,
+            "tag": 2,
             "title": "Ovora Step Stool",
             "price": "140",
             "discount": "185",
@@ -53,6 +58,78 @@
             "images": [
                 "assets/img/products/product-13-1-270x360.jpg",
                 "assets/img/products/product-13-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "tag": 3,
+            "title": "Alexa Classic Towels",
+            "price": "11",
+            "discount": "14",
+            "slug": "alexa_classic_towels",
+            "images": [
+                "assets/img/products/product-15-1-270x360.jpg",
+                "assets/img/products/product-15-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "tag": 1,
+            "title": "Olivia Shayn Cover Chair",
+            "price": "98",
+            "discount": null,
+            "slug": "olivia_shayn_cover_chair",
+            "images": [
+                "assets/img/products/product-16-1-270x360.jpg",
+                "assets/img/products/product-16-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "tag": 2,
+            "title": "Juliet Rowley Sofa Remix Fabric",
+            "price": "98",
+            "discount": null,
+            "slug": "juliet_rowley_sofa_remix_fabric",
+            "images": [
+                "assets/img/products/product-17-1-270x360.jpg",
+                "assets/img/products/product-17-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "tag": 3,
+            "title": "Candice Copenhagen Stage Floor Lamp EU",
+            "price": "98",
+            "discount": null,
+            "slug": "candice_copenhagen_stage_floor_lamp_eu",
+            "images": [
+                "assets/img/products/product-18-1-270x360.jpg",
+                "assets/img/products/product-18-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "tag": 1,
+            "title": "Benington Pause Dining Table Black",
+            "price": "98",
+            "discount": null,
+            "slug": "benington_pause_dining_table_black",
+            "images": [
+                "assets/img/products/product-19-1-270x360.jpg",
+                "assets/img/products/product-19-2-270x360.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "tag": 2,
+            "title": "Belle Georgian Lantern",
+            "price": "98",
+            "discount": null,
+            "slug": "belle_georgian_lantern",
+            "images": [
+                "assets/img/products/product-20-1-270x360.jpg",
+                "assets/img/products/product-20-2-270x360.jpg"
             ]
         }
     ],
