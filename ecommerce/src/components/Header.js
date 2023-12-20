@@ -24,10 +24,10 @@ export default class Header extends Component {
                         <div className="col-lg-12">
                             <div className="header-info-wrapper header-info-wrapper--alt-style">
                                 <div className="header-logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="../assets/img/logo.png" className="img-fluid" alt="" />
                                         <img src="../assets/img/logo-alt.png" className="img-fluid" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="header-navigation-wrapper">
                                     <nav>
